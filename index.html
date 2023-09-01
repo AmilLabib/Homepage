@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="font.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <script src="script.js" defer></script>
+    <title>Personal Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <li>
+        <ul>
+          <a href="#hero">Home</a>
+        </ul>
+        <ul>
+          <a href="#skills">Skills</a>
+        </ul>
+        <ul>
+          <a href="#portfolio">Portfolio</a>
+        </ul>
+        <ul>
+          <a href="#contact">Contact</a>
+        </ul>
+      </li>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero" id="hero">
+      <div class="hero-1">
+        <div class="name">
+          <h1 class="amil">Amil</h1>
+          <h1 class="labib">Labib<span>.</span></h1>
+          <h5>Front End Web Developer</h5>
+        </div>
+        <div class="social-media-1">
+          <h4 class="instagram"><a href="">Instagram</a></h4>
+          <h4 class="divisor">|</h4>
+          <h4 class="facebook"><a href="">Facebook</a></h4>
+        </div>
+        <div class="social-media-2">
+          <h4 class="linkedin"><a href="">Linkedin</a></h4>
+          <h4 class="divisor">|</h4>
+          <h4 class="twitter"><a href="">Twitter</a></h4>
+        </div>
+        <button class="hero-1-btn" onclick="scrollToTarget()">
+          CONTACT ME
+        </button>
+      </div>
+
+      <div class="hero-2">
+        <div class="circle"></div>
+        <img src="assets/hero-img.png" alt="" class="hero-img" />
+      </div>
+
+      <div class="hero-3">
+        <h1>Front End Web Developer</h1>
+        <h4>Programming Enthusiast</h4>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div class="services" id="skills">
+      <div class="title">
+        <h1>Skills</h1>
+        <h3>What I am Great At</h3>
+      </div>
+      <div class="service-box">
+        <div class="bx-1 box">
+          <img src="assets/service-1.png" alt="" class="box-img box-1-img" />
+          <h3 class="box-txt">C++</h3>
+        </div>
+        <div class="bx-2 box">
+          <img src="assets/service-2.png" alt="" class="box-img box-2-img" />
+          <h3 class="box-txt">JavaScript</h3>
+        </div>
+        <div class="bx-3 box">
+          <img src="assets/service-3.png" alt="" class="box-img box-3-img" />
+          <h3 class="box-txt">HTML & CSS</h3>
+        </div>
+        <div class="bx-4 box">
+          <img src="assets/service-4.png" alt="" class="box-img box-4-img" />
+          <h3 class="box-txt">Bootstrap</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="container" id="portfolio">
+      <div class="title">
+        <h1>PORTFOLIO</h1>
+        <h3>These Are Some Of My Projects</h3>
+      </div>
+      <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+          <li class="card">
+            <img src="assets/portfolio-1.png" alt="" class="card-img-1" />
+            <h2>Tribute Page</h2>
+          </li>
+          <li class="card">
+            <img src="assets/portfolio-2.png" alt="" class="card-img-2" />
+            <h2>Landing Page</h2>
+          </li>
+          <li class="card">
+            <img src="assets/portfolio-3.png" alt="" class="card-img-3" />
+            <h2>Technical Docs</h2>
+          </li>
+          <li class="card">
+            <img src="assets/portfolio-4.png" alt="" class="card-img-4" />
+            <h2>Survey Form</h2>
+          </li>
+          <li class="card">
+            <img src="assets/portfolio-5.png" alt="" class="card-img-5" />
+            <h2>Personal Page</h2>
+          </li>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact" id="contact">
+      <div class="title">
+        <h1>CONTACT ME</h1>
+        <div class="line"></div>
+      </div>
+
+      <div class="social-media">
+        <div class="contact-1 contact-box">
+          <a href="" class="contact-box">
+            <img src="assets/contact-1.svg" alt="" class="contact-img" />
+            <h3 class="contact-txt">Facebook</h3>
+          </a>
+        </div>
+        <div class="contact-1 contact-box">
+          <a href="" class="contact-box">
+            <img src="assets/contact-2.svg" alt="" class="contact-img" />
+            <h3 class="contact-txt">Github</h3>
+          </a>
+        </div>
+        <div class="contact-1 contact-box">
+          <a href="" class="contact-box">
+            <img src="assets/contact-3.svg" alt="" class="contact-img" />
+            <h3 class="contact-txt">Twitter</h3>
+          </a>
+        </div>
+        <div class="contact-1 contact-box">
+          <a href="" class="contact-box">
+            <img src="assets/contact-4.svg" alt="" class="contact-img" />
+            <h3 class="contact-txt">Email</h3>
+          </a>
+        </div>
+        <div class="contact-1 contact-box">
+          <a href="" class="contact-box">
+            <img src="assets/contact-5.svg" alt="" class="contact-img" />
+            <h3 class="contact-txt">Call Me</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="line"></div>
+      <div class="footer-txt">
+        <img src="assets/footer.svg" alt="" />
+        <h3>Copyrights - AmilLabib</h3>
+        <h3>|</h3>
+        <h3>All Rights Reserved</h3>
+      </div>
+    </footer>
+  </body>
+</html>
